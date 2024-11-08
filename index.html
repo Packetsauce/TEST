@@ -3,45 +3,69 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Banana Paradise</title>
+    <title>Fruit Paradise</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
         <nav>
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="apple.html">Apple</a></li>
-                <li><a href="pear.html">Pear</a></li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#bananas">Bananas</a></li>
+                <li><a href="#apples">Apples</a></li>
+                <li><a href="#login">Login</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
-        <section id="hero">
-            <h1>Banana Paradise</h1>
-            <p>Discover the world of delicious bananas!</p>
+        <section id="home">
+            <h1>Fruit Paradise</h1>
+            <p>Discover the world of delicious fruits!</p>
         </section>
 
-        <section id="banana-info">
-            <h2>About Bananas</h2>
-            <p>Bananas are one of the most popular fruits worldwide. They're packed with nutrients and offer various health benefits.</p>
-            <img src="https://images.unsplash.com/photo-1481349518771-20055b2a7b24" alt="Banana bunch" class="fruit-image">
+        <section id="bananas">
+            <h2>Bananas</h2>
+            <div class="fruit-content">
+                <img src="https://images.unsplash.com/photo-1481349518771-20055b2a7b24" alt="Banana bunch" class="fruit-image">
+                <div class="fruit-info">
+                    <p>Bananas are one of the most popular fruits worldwide. They're packed with nutrients and offer various health benefits.</p>
+                    <ul>
+                        <li>Rich in potassium</li>
+                        <li>Great source of fiber</li>
+                        <li>Natural energy booster</li>
+                    </ul>
+                </div>
+            </div>
         </section>
 
-        <section id="banana-facts">
-            <h2>Banana Facts</h2>
-            <ul>
-                <li>Bananas are berries</li>
-                <li>They're rich in potassium</li>
-                <li>Bananas float in water</li>
-            </ul>
-            <img src="https://images.unsplash.com/photo-1571771894821-ce9b6c11b08e" alt="Peeled banana" class="fruit-image">
+        <section id="apples">
+            <h2>Apples</h2>
+            <div class="fruit-content">
+                <img src="https://images.unsplash.com/photo-1568702846914-96b305d2aaeb" alt="Red apples" class="fruit-image">
+                <div class="fruit-info">
+                    <p>Apples are crisp and juicy fruits that come in a variety of colors and flavors. They're known for their health benefits and versatility.</p>
+                    <ul>
+                        <li>High in antioxidants</li>
+                        <li>May lower risk of heart disease</li>
+                        <li>Promote good gut bacteria</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="login">
+            <h2>Login</h2>
+            <form id="login-form">
+                <input type="text" placeholder="Username" required>
+                <input type="password" placeholder="Password" required>
+                <button type="submit">Login</button>
+            </form>
         </section>
     </main>
 
     <footer>
-        <p>&copy; 2024 Banana Paradise. All rights reserved.</p>
+        <p>&copy; 2024 Fruit Paradise. All rights reserved.</p>
     </footer>
 
     <script src="script.js"></script>
